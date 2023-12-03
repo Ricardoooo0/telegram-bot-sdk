@@ -11,6 +11,7 @@ use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Client\RequestExceptionInterface;
 use Psr\Http\Message\ResponseInterface;
+use SebastianBergmann\CodeCoverage\Report\Xml\Unit;
 use Telegram\Bot\Exceptions\TelegramSDKException;
 use Throwable;
 
@@ -47,7 +48,7 @@ class GuzzleHttpClient implements HttpClientInterface
      */
     public function __destruct()
     {
-        Promise\unwrap(self::$promises);
+        Promise\Utils::unwrap(self::$promises);
     }
 
     /**
