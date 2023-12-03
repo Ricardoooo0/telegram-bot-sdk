@@ -11,7 +11,6 @@ use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Client\RequestExceptionInterface;
 use Psr\Http\Message\ResponseInterface;
-use SebastianBergmann\CodeCoverage\Report\Xml\Unit;
 use Telegram\Bot\Exceptions\TelegramSDKException;
 use Throwable;
 
