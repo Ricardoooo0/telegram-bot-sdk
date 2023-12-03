@@ -1,6 +1,6 @@
 {
   "name": "ricardoooo0/telegram-bot-sdk",
-  "description": "The Unofficial Telegram Bot API PHP SDK",
+  "description": "cpoy from irazasyed/telegram-bot-sdk 3.9.0 and fix unwrap",
   "keywords": ["telegram", "telegram bot", "telegram bot api", "telegram sdk", "telegram php", "laravel telegram", "laravel"],
   "type": "library",
   "homepage": "https://github.com/Ricardoooo0/telegram-bot-sdk",
